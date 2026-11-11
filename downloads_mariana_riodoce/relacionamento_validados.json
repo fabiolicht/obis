@@ -1,0 +1,22 @@
+[
+    {
+        "dataset": "SFN - CCLA REG LESTE BACIA RIO DOCE",
+        "arquivo": "6853d70b_Canais de Atendimento v1.json",
+        "url": "https://olinda.bcb.gov.br/olinda/servico/DASFN/versao/v1/odata/Recursos?$filter=CnpjInstituicao%20eq%20'05158093000109'%20and%20Api%20eq%20'canais_atendimento'%20and%20startswith(Versao,'1')&$format=json"
+    },
+    {
+        "dataset": "SFN - CCLA REG LESTE BACIA RIO DOCE",
+        "arquivo": "6853d70b_Canais de Atendimento v2.json",
+        "url": "https://olinda.bcb.gov.br/olinda/servico/DASFN/versao/v1/odata/Recursos?$filter=CnpjInstituicao%20eq%20'05158093000109'%20and%20Api%20eq%20'canais_atendimento'%20and%20startswith(Versao,'2')&$format=json"
+    },
+    {
+        "dataset": "SFN - CPC LIV ADM DO VALE RIO DOCE",
+        "arquivo": "f70a6fe7_Canais de Atendimento v1.json",
+        "url": "https://olinda.bcb.gov.br/olinda/servico/DASFN/versao/v1/odata/Recursos?$filter=CnpjInstituicao%20eq%20'25606237000141'%20and%20Api%20eq%20'canais_atendimento'%20and%20startswith(Versao,'1')&$format=json"
+    },
+    {
+        "dataset": "SFN - CPC LIV ADM DO VALE RIO DOCE",
+        "arquivo": "f70a6fe7_Canais de Atendimento v2.json",
+        "url": "https://olinda.bcb.gov.br/olinda/servico/DASFN/versao/v1/odata/Recursos?$filter=CnpjInstituicao%20eq%20'25606237000141'%20and%20Api%20eq%20'canais_atendimento'%20and%20startswith(Versao,'2')&$format=json"
+    }
+]
