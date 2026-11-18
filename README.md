@@ -67,6 +67,8 @@ O módulo [`gerenciador_download.py`](./gerenciador_download.py) reconhece exten
 |---|---|
 | [`interface_busca.py`](./interface_busca.py) | Interface gráfica para pesquisar e baixar de forma seletiva. |
 | [`gerenciador_download.py`](./gerenciador_download.py) | Identifica recursos baixáveis nos JSONs, salva os arquivos e registra seus caminhos. |
+| [`coletorGenerico.py`](./coletorGenerico.py) | Define a base abstrata para coletores genéricos, com sessão HTTP, organização de pastas, padronização de metadados, downloads e relatórios. |
+| [`testeColetorGenerico.py`](./testeColetorGenerico.py) | Exemplos de coletores CKAN e GeoNetwork para Dados.gov.br e IDE-Sisema, com execução direta das buscas. |
 | [`DadosGov_json.py`](./DadosGov_json.py) | Captura a resposta JSON da busca do Dados.gov.br usando Playwright. |
 | [`DadosGov_Download.py`](./DadosGov_Download.py) | Rotina autônoma de busca/download no Dados.gov.br, com registro dos arquivos locais. |
 | [`IDE-Sisema_json.py`](./IDE-Sisema_json.py) | Pesquisa metadados no IDE-Sisema e grava registros e links em JSON. |
