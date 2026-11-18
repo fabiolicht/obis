@@ -1,0 +1,7 @@
+requests
+urllib3
+pandas
+playwright
+nest-asyncio
+OWSLib
+earthengine-api
