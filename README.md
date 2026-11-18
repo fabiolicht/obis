@@ -31,7 +31,7 @@ python -m playwright install chromium
 python interface_busca.py
 ```
 
-Em sistemas Linux, o Python também precisa ter suporte ao Tkinter. A interface não precisa de navegador visível; o Chromium do Playwright é usado pelo provedor Dados.gov.br.
+Em sistemas Linux, o Python também precisa ter suporte ao Tkinter. A interface não precisa de navegador visível; o Chromium do Playwright é usado pelo Portal dados.gov.br.
 
 ## Saídas e catalogação
 
@@ -59,7 +59,7 @@ Exemplo de vínculo em um recurso:
 
 Os caminhos registrados são locais ao projeto. A interface não grava diretamente em um banco de dados; esses campos JSON servem como referência para uma etapa posterior de catalogação.
 
-O módulo [`gerenciador_download.py`](./gerenciador_download.py) reconhece extensões como imagens, documentos, planilhas, formatos geoespaciais e arquivos compactados — incluindo GIF, JPG, PNG, BMP, TIF, RAW, PDF, DOC/DOCX, RTF, XLS/XLSX, BIN, CSV, SHP, GPKG, JSON, GeoJSON, KML/KMZ, DXF/DWG, OSM, ECW, DEM, ASC, SID, ZIP, RAR e GZ. Também aceita extensões identificadas pelo URL ou pelo formato MIME informado no catálogo. Links de serviços OGC, como WMS/WFS, não são tratados como arquivos físicos, a menos que o catálogo os identifique como download direto.
+O módulo [`gerenciador_download.py`](./gerenciador_download.py) reconhece extensões como imagens, documentos, planilhas, formatos geoespaciais e arquivos compactados — incluindo GIF, JPG, PNG, BMP, TIF, RAW, PDF, DOC/DOCX, RTF, XLS/XLSX, BIN, CSV, SHP, GPKG, JSON, GeoJSON, KML/KMZ, DXF/DWG, OSM, ECW, DEM, ASC, SID, ZIP, RAR e GZ. Também aceita extensões identificadas pela URL ou pelo formato MIME informado no catálogo. Links de serviços OGC, como WMS/WFS, não são tratados como arquivos físicos, a menos que o catálogo os identifique como download direto.
 
 ## Scripts disponíveis
 
@@ -82,6 +82,6 @@ Os scripts de download de IDE-Sisema e INDE podem ser executados diretamente, ma
 ## Requisitos específicos e limitações
 
 - **Dados.gov.br:** requer Playwright e o Chromium instalado pelo comando acima.
-- **ANA HidroWeb:** o script contém um marcador de autorização (`Bearer SUA_CHAVE_AQUI`). O acesso pode exigir credencial válida autorizada pela ANA; não grave tokens reais no repositório.
+- **ANA HidroWeb:** o script contém um marcador de autorização (`Bearer SUA_CHAVE_AQUI`). O acesso exige credencial válida autorizada pela ANA; **ATENÇÃO:** não grave tokens reais no repositório.
 - **MapBiomas:** o download local requer a API do Google Earth Engine habilitada, autenticação configurada e acesso ao projeto definido em [`MapBiomas.py`](./MapBiomas.py). A API de download do Earth Engine limita o tamanho de cada solicitação; falhas são exibidas pela interface e registradas no JSON quando retornadas pela rotina.
 - Os catálogos e serviços são externos; disponibilidade, formato dos metadados e permissões de acesso podem mudar.
