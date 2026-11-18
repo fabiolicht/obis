@@ -9,7 +9,7 @@ A interface gráfica está em [`interface_busca.py`](./interface_busca.py). Ela 
 - **Dados.gov.br** — pesquisa conjuntos de dados e captura a resposta JSON do portal.
 - **IDE-Sisema** — pesquisa metadados no catálogo GeoNetwork de Minas Gerais.
 - **INDE** — pesquisa metadados no catálogo nacional via CSW.
-- **ANA HidroWeb** — pesquisa estações pelo nome do rio informado.
+- **ANA HidroWeb** — pesquisa estações pelo nome do rio informado
 - **MapBiomas** — disponibiliza as bandas de classificação de 2014, 2016 e 2022 para a região configurada da bacia do Rio Doce.
 
 O fluxo da interface é separado em dois passos:
